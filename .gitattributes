@@ -1,0 +1,6 @@
+# Padroniza LF para arquivos de texto no repositório
+* text=auto eol=lf
+
+# Exceções (se precisar CRLF em scripts de Windows)
+*.bat eol=crlf
+*.cmd eol=crlf
