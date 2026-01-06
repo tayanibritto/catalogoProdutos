@@ -8,7 +8,7 @@ Pré-requisitos: Navegador atualizado (projeto foi testado e funciona no Google 
 
 Instalação:
 
-Passos para clonar e rodar: git clone https://github.com/tayanibritto/catalogoProdutos.git cd catalogoProdutos abrir index.html no navegador 
+Passos para clonar e rodar: git clone https://github.com/tayanibritto/catalogoProdutos.git cd catalogoProdutos npm install npm run dev copiar e colar a URL que o terminal mostrar (geralmente http://localhost:5173). É necessário ter o Node.js instalado.
 
 Como usar: Será necessário gerar um link de simulador de back-end no https://crudcrud.com. Copie o link gerado no campo em destaque no site e cole no lugar do link expirado disponível no projeto inicial, que é este: https://crudcrud.com/api/ab2e8d8b30194759bf40027ad4fc49bc. Você pode buscar por este link no arquivo no arquivo ./src/App.jsx através do atalho CTRL+F e substituir pelo link que o CRUDCRUD gerou para você. A página funcionará perfeitamente após isso. Só digitar os campos e clicar em "Adicionar Produtos". 
 Estrutura do Projeto: 
@@ -23,4 +23,4 @@ Estrutura do Projeto:
   package.json
   vite.config.js
 
-Observações: Por utilizar uma API externa, a página NÃO funcionará corretamente sem acesso à Internet.
+Observações: Por utilizar uma API externa, a página NÃO funcionará corretamente sem acesso à Internet. É necessário ter o Node.js instalado para o projeto funcionar.
